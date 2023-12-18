@@ -28,6 +28,7 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  width: 100vw;
 
 }
 
@@ -235,6 +236,7 @@ p {
 
 .competence {
   height: 70vh;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -325,8 +327,8 @@ p {
   }
 
   .competence__article img {
-    width: 9rem;
-    height: 9rem;
+    width: 8rem;
+    height: 8rem;
   }
 
 }
