@@ -3,6 +3,8 @@ html {
 }
 
 body {
+  width: 100vw;
+
   font-size: 1.6;
   letter-spacing: 1px;
   font-family: Arial, Helvetica, sans-serif;
@@ -49,6 +51,7 @@ p {
   border: 2px solid RGB(49, 50, 69);
   position: sticky;
   top: 0px;
+
 }
 
 
@@ -57,6 +60,11 @@ p {
   text-decoration: none;
   color: white;
   font-weight: 600;
+}
+
+.navigation__title:hover a {
+  color: #ffffff;
+
 }
 
 .navigation__items {
@@ -297,6 +305,19 @@ p {
 }
 
 @media (max-width: 768px) {
+
+  .navigation {
+    padding: 0 2rem;
+  }
+
+  .navigation__title a {
+    font-size: 2rem;
+  }
+
+  .navigation__items li a {
+    font-size: 80%;
+  }
+
   .main__contain {
     display: flex;
     flex-direction: column;
