@@ -38,7 +38,6 @@ p {
   padding: 2.4rem 20rem;
 }
 
-
 /*___________________________ NAVBAR ________________________________*/
 
 .navigation {
@@ -53,7 +52,6 @@ p {
   top: 0px;
 
 }
-
 
 .navigation__title a {
   font-size: 2.4rem;
@@ -278,14 +276,14 @@ p {
 
 .competence__article img {
   transition: transform 0.3s ease;
+  height: 15rem;
+  width: auto;
 }
 
 .competence__article img:hover {
   transform: scale(1.1);
   /* Effet de zoom léger au survol */
 }
-
-
 
 
 @media (max-width: 991px) {
@@ -340,7 +338,6 @@ p {
     height: 30rem;
     width: auto;
     margin-top: auto;
-    /* Ajouté pour pousser vers le bas */
   }
 
   #about {
@@ -349,7 +346,7 @@ p {
 
   .competence__article img {
     width: 8rem;
-    height: 8rem;
+    height: auto;
   }
 
 }
