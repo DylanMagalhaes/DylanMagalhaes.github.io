@@ -2,9 +2,13 @@ html {
   font-size: 62.5%;
 }
 
+html,
 body {
-  width: 100vw;
+  max-width: 100%;
+  overflow-x: hidden;
+}
 
+body {
   font-size: 1.6;
   letter-spacing: 1px;
   font-family: Arial, Helvetica, sans-serif;
@@ -31,6 +35,7 @@ p {
   flex-direction: column;
   justify-content: space-between;
   width: 100vw;
+  padding: 7.2rem 7.2rem 0 7.2rem;
 
 }
 
@@ -88,6 +93,7 @@ p {
 
 /*___________________________ Main ________________________________*/
 
+
 .main__contain {
   display: flex;
   justify-content: space-between;
@@ -143,9 +149,6 @@ p {
     opacity: 0.5;
   }
 }
-
-
-
 
 
 
@@ -244,9 +247,12 @@ p {
   height: 70vh;
   width: 100vw;
   display: flex;
+  padding: 1.2rem;
   flex-direction: column;
   justify-content: space-evenly;
   background: #313345;
+  padding: 6.4rem;
+
 }
 
 .competence__title {
@@ -259,7 +265,7 @@ p {
 }
 
 .competence__article {
-  height: 30%;
+  height: 40%;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -298,6 +304,10 @@ p {
 
   .main__reseau {
     text-align: center;
+  }
+
+  .competence {
+    padding: 3.4rem;
   }
 
 }
@@ -347,6 +357,10 @@ p {
   .competence__article img {
     width: 8rem;
     height: auto;
+  }
+
+  .competence {
+    padding: 2.4rem;
   }
 
 }
